@@ -1,12 +1,12 @@
 # 1ª Atividade de Revisão I.A.
 
 **Questão 1.** Analise as afirmações abaixo sobre como podemos definir a Inteligência Artificial (I.A.). 
-Assinale V para verdadeiro e F para falso. Justifique todas as respostas falsas.
-(V) IA consiste na automatização de tarefas que associamos ao pensamento humano.
+Assinale V para verdadeiro e F para falso. Justifique todas as respostas falsas.  
+(V) IA consiste na automatização de tarefas que associamos ao pensamento humano.  
 (V) IA pode ser definida como a arte de criar máquinas que executam funções que exigem inteligência quando
-executadas por pessoas.
-(V) IA também se refere ao estudo das faculdades mentais pelo uso do computador.
-(V) IA está relacionada a um agente inteligente.
+executadas por pessoas.  
+(V) IA também se refere ao estudo das faculdades mentais pelo uso do computador.  
+(V) IA está relacionada a um agente inteligente.  
 
 **Questão 2.** Explique com suas palavras o teste de Turing.
 É um teste em que um humano e o computador são interrogados por escrito por um humano, que deverá ao final do teste dizer qual deles é a I.A., esta que passará no teste ao não ser distinguida do ser humano. Para isso ela precisará com uma linguagem natural, armazenamento de conhecimento, tomada de decisões com passe neste conhecimento e um bom nível de adaptação para novas situações que podem surgir no meio do teste.
@@ -49,9 +49,9 @@ Um ambiente pode ser:
 - Agente único ou multiagente (competitivo ou cooperativo): O ambiente possui um ou vários agentes atuantes.
 - Determinístico ou estocástico: O próximo estado é completamente definido pelo estado atual + ação do agente.
 - Episódico ou sequencial: A decisão atual não é influenciada pelas decisões anteriores.
-- Estático ou dinâmico:
-- Discreto ou contínuo:
-- Conhecido ou desconhecido:
+- Estático ou dinâmico: O ambiente não muda enquanto o agente está deliberando/decidindo.
+- Discreto ou contínuo: O número de estados do ambiente é finito.
+- Conhecido ou desconhecido: É de conhecimento do agente como o ambiente funciona.
 
 **Questão 7.** Do ponto de vista do comportamento de um agente, como podemos classifica-los?
 
