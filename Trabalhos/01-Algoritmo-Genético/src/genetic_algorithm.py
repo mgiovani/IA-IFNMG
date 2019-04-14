@@ -12,7 +12,10 @@
 
 import math
 import numpy as np
+import random
 
+import sys
+sys.path.append("..")
 from config import constants
 
 def rastrigin(X):
@@ -26,8 +29,9 @@ def fitness_function(x):
     return abs(abs(np.min(x))-constants.X_MAX)
 
 def select_individuals(population):
-    best = population.pop(get_best_individual_position(population))
-    # TODO
+    best = population[get_best_individual_position(population)]
+    selected_individuals = start_tournament(population)
+    return selected_individuals, best
 
 def crossover(parent_1, parent_2):
     # Não necessário para esta entrega
@@ -42,17 +46,34 @@ def update_for_next_generation():
 def population_has_converged():
     pass
 
+def start_tournament(population):
+    selected_individuals = []
+    for _ in range(len(population)):
+        individual_1 = population[random.randint(0, len(population)-1)]
+        individual_2 = population[random.randint(0, len(population)-1)]
+        if fitness_function(individual_1) > fitness_function(individual_2):
+            selected_individuals.append(individual_1)
+        else:
+            selected_individuals.append(individual_2)
+    return selected_individuals
+
 def get_best_individual_position(population):
     best = fitness_function(population[0])
     best_ind = 0
-    for i in range(population):
+    for i in range(len(population)):
         if fitness_function(population[i]) > best:
             best = fitness_function(population[i])
             best_ind = i
     return best_ind
 
 def main():
-    pass
+    ini_population = initial_population()
+    print('População Inicial: ', *ini_population, sep='\n')
+    for generation in range(1, 101):
+        sel_individuals, best_individual = select_individuals(ini_population)
+        print('\nIndivíduos Selecionados: ', *sel_individuals, sep='\n')
+        print('\nGeração Atual: ', generation)
+        print('Melhor Indivíduo: ', best_individual)
 
 if __name__ == "__main__":
     main()
