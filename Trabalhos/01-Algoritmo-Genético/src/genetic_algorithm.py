@@ -28,6 +28,7 @@ def initial_population():
 
 def fitness_function(x):
     return abs(abs(np.min(x))-constants.X_MAX)
+    # return 1/(np.min(x) + (constants.RASTRIGIN_A**-0.2 - np.min(x)))
 
 def select_individuals(population):
     best_individual = copy.deepcopy(population[get_best_individual_position(population)])
