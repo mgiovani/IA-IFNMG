@@ -50,10 +50,9 @@ def update_for_next_generation(population, best_individual):
     population[get_worst_individual_position(population)] = copy.deepcopy(best_individual)
     return population
 
-
 def population_has_converged(population):
     for individual in population:
-        if individual != population[0]:
+        if not np.array_equal(individual, population[0]):
             return False
     return True
 
@@ -87,17 +86,28 @@ def get_worst_individual_position(population):
     return worst_ind
 
 def main():
-    population = initial_population()
-    print('População Inicial: ', *population, sep='\n')
-    for generation in range(1, 101):
-        population, best_individual = select_individuals(population)
-        print('\nIndivíduos Selecionados: ', *population, sep='\n')
-        population = mutate(population)
-        print('\nIndivíduos Após Mutação: ', *population, sep='\n')
-        population = update_for_next_generation(population, best_individual)
-        print('\nIndivíduos Após Atualização: ', *population, sep='\n')
-        print('\nGeração Atual: ', generation)
-        print('Melhor Indivíduo: ', best_individual)
+    with open('result.txt', 'w') as file:
+            file.write('')
 
+    for i in range(1, 31):
+        population = initial_population()
+        print('População Inicial: ', *population, sep='\n')
+        for generation in range(1, 101):
+            population, best_individual = select_individuals(population)
+            # print('\nIndivíduos Selecionados: ', *population, sep='\n')
+            population = mutate(population)
+            # print('\nIndivíduos Após Mutação: ', *population, sep='\n')
+            population = update_for_next_generation(population, best_individual)
+            # print('\nIndivíduos Após Atualização: ', *population, sep='\n')
+            print('\nGeração Atual: ', generation)
+            print('Melhor Indivíduo: ', best_individual)
+            print('Fitness: ', fitness_function(best_individual))
+            if population_has_converged(population): 
+                break
+
+        result = f'Iteração: {i}\nMelhor Indivíduo: {best_individual}\nFitness: {fitness_function(best_individual)}\nFunção Objetivo: {rastrigin(best_individual)}\n\n'
+        with open('result.txt', 'a') as file:
+            file.write(result)
+    
 if __name__ == "__main__":
     main()

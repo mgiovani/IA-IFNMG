@@ -1,0 +1,150 @@
+Iteração: 1
+Melhor Indivíduo: [0.02664818 4.99519137]
+Fitness: 5.093351816605293
+Função Objetivo: 25.097056901098455
+
+Iteração: 2
+Melhor Indivíduo: [-0.04430721  3.83242216]
+Fitness: 5.07569279226663
+Função Objetivo: 20.124095052153322
+
+Iteração: 3
+Melhor Indivíduo: [5.55181884 0.03581547]
+Fitness: 5.084184525727831
+Função Objetivo: 50.55074287992014
+
+Iteração: 4
+Melhor Indivíduo: [ 2.37054744 -0.04611696]
+Fitness: 5.073883040321185
+Função Objetivo: 22.909006023163172
+
+Iteração: 5
+Melhor Indivíduo: [2.42654874 0.04260557]
+Fitness: 5.077394429430815
+Função Objetivo: 25.199953024794926
+
+Iteração: 6
+Melhor Indivíduo: [1.46610692 0.00421728]
+Fitness: 5.115782716361009
+Função Objetivo: 21.927101070409265
+
+Iteração: 7
+Melhor Indivíduo: [-0.0301751   3.16392739]
+Fitness: 5.089824904381845
+Função Objetivo: 15.042234815338585
+
+Iteração: 8
+Melhor Indivíduo: [-0.02425328  3.83204091]
+Fitness: 5.095746722770984
+Função Objetivo: 19.871501377373765
+
+Iteração: 9
+Melhor Indivíduo: [1.09836914 0.09058908]
+Fitness: 5.029410916168695
+Função Objetivo: 4.641257939522767
+
+Iteração: 10
+Melhor Indivíduo: [ 0.55242437 -0.01058142]
+Fitness: 5.109418584817399
+Função Objetivo: 19.789769523221153
+
+Iteração: 11
+Melhor Indivíduo: [1.88437725 0.00330809]
+Fitness: 5.116691912657951
+Função Objetivo: 6.077871526824849
+
+Iteração: 12
+Melhor Indivíduo: [1.02396134 0.00312243]
+Fitness: 5.116877571856143
+Função Objetivo: 1.1635489304593634
+
+Iteração: 13
+Melhor Indivíduo: [0.00356885 0.10308845]
+Fitness: 5.1164311491345495
+Função Objetivo: 2.038561547999393
+
+Iteração: 14
+Melhor Indivíduo: [0.00372386 0.65492824]
+Fitness: 5.116276142921573
+Função Objetivo: 16.056244150842996
+
+Iteração: 15
+Melhor Indivíduo: [0.06035254 3.46243842]
+Fitness: 5.059647463660854
+Função Objetivo: 32.42532951224921
+
+Iteração: 16
+Melhor Indivíduo: [-0.06321746  1.61835451]
+Fitness: 5.05678254060182
+Função Objetivo: 20.761687541554714
+
+Iteração: 17
+Melhor Indivíduo: [-0.02039041  4.94090523]
+Fitness: 5.0996095892076685
+Função Objetivo: 25.176365322558784
+
+Iteração: 18
+Melhor Indivíduo: [-0.04825058  1.72784173]
+Fitness: 5.071749418556486
+Função Objetivo: 14.831560222588195
+
+Iteração: 19
+Melhor Indivíduo: [0.02663471 0.30034846]
+Fitness: 5.093365290083383
+Função Objetivo: 13.341608905170386
+
+Iteração: 20
+Melhor Indivíduo: [ 3.00091607 -0.01175887]
+Fitness: 5.1082411304749
+Função Objetivo: 9.03308235506982
+
+Iteração: 21
+Melhor Indivíduo: [ 2.9518716  -0.01151863]
+Fitness: 5.108481366920614
+Função Objetivo: 9.193611038193893
+
+Iteração: 22
+Melhor Indivíduo: [4.29666809 0.02325528]
+Fitness: 5.096744724855033
+Função Objetivo: 31.45886263075645
+
+Iteração: 23
+Melhor Indivíduo: [4.91184733 0.03295493]
+Fitness: 5.087045065836219
+Função Objetivo: 25.83603549214814
+
+Iteração: 24
+Melhor Indivíduo: [-0.02787254  0.56471079]
+Fitness: 5.092127459404578
+Função Objetivo: 19.657381096535776
+
+Iteração: 25
+Melhor Indivíduo: [1.59723487 0.04321285]
+Fitness: 5.0767871466296866
+Função Objetivo: 21.110432460051392
+
+Iteração: 26
+Melhor Indivíduo: [-0.02846192  0.71172551]
+Fitness: 5.091538075281093
+Função Objetivo: 13.048585368820534
+
+Iteração: 27
+Melhor Indivíduo: [-0.23599983 -0.22702302]
+Fitness: 4.884000166385283
+Função Objetivo: 17.79003630367136
+
+Iteração: 28
+Melhor Indivíduo: [ 3.09241485 -0.0031408 ]
+Fitness: 5.116859196178624
+Função Objetivo: 11.203976662019883
+
+Iteração: 29
+Melhor Indivíduo: [0.05295538 1.64800234]
+Fitness: 5.06704461647823
+Função Objetivo: 19.246101301941508
+
+Iteração: 30
+Melhor Indivíduo: [-0.13253339 -0.14099135]
+Fitness: 4.979008646405759
+Função Objetivo: 6.982748139962252
+
