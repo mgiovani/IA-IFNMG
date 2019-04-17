@@ -1,0 +1,1 @@
+**Obs.:** Tive problemas com a importação dos módulos, é necessário executar o código [genetic_algorithm.py](https://github.com/mgiovani/IA-IFNMG/blob/master/Trabalhos/01-Algoritmo-Gen%C3%A9tico/src/genetic_algorithm.py) diretamente da pasta src para que rode corretamente.
