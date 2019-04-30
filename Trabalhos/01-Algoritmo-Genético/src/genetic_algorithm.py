@@ -27,17 +27,25 @@ def initial_population():
     return np.random.uniform(constants.X_MIN, constants.X_MAX + 0.01, (constants.POPULATION, constants.DIMENSIONS))
 
 def fitness_function(x):
-    return abs(abs(np.min(x))-constants.X_MAX)
-    # return 1/(np.min(x) + (constants.RASTRIGIN_A**-0.2 - np.min(x)))
+    return 1/(rastrigin(x)+0.0001)
 
 def select_individuals(population):
     best_individual = copy.deepcopy(population[get_best_individual_position(population)])
     selected_individuals = start_tournament(population)
     return selected_individuals, best_individual
 
-def crossover(parent_1, parent_2):
-    # Não necessário para esta entrega
-    pass
+def crossover(population):
+    offspring: list = []
+    
+    while(len(offspring) < len(population)):
+        parent_1 = random.randint(0, len(population)-1)
+        parent_2 = random.randint(0, len(population)-1)
+        if random.random() < constants.CROSSOVER_RATE:
+            child_1 = constants.CROSSOVER_ALPHA * population[parent_1] + (1-constants.CROSSOVER_ALPHA) * population[parent_2]
+            child_2 = (1-constants.CROSSOVER_ALPHA) * population[parent_1] + constants.CROSSOVER_ALPHA * population[parent_2]
+            offspring.append(child_1)
+            offspring.append(child_2)
+    return offspring
 
 def mutate(population):
     for individual in population:
@@ -47,9 +55,11 @@ def mutate(population):
             individual[pos] += individual[pos] * noise
     return population
 
-def update_for_next_generation(population, best_individual):
+def update_for_next_generation(population, offspring, best_individual):
     population[get_worst_individual_position(population)] = copy.deepcopy(best_individual)
-    return population
+    population += offspring
+    population.sort(reverse=True, key=fitness_function)
+    return population[:constants.POPULATION]
 
 def population_has_converged(population):
     for individual in population:
@@ -89,7 +99,7 @@ def get_worst_individual_position(population):
 def main():
     with open('result.txt', 'w') as file:
             file.write('')
-
+			
     for i in range(1, 31):
         population = initial_population()
         print('População Inicial: ', *population, sep='\n')
@@ -98,13 +108,14 @@ def main():
             # print('\nIndivíduos Selecionados: ', *population, sep='\n')
             population = mutate(population)
             # print('\nIndivíduos Após Mutação: ', *population, sep='\n')
-            population = update_for_next_generation(population, best_individual)
+            offspring = crossover(population)
+            population = update_for_next_generation(population, offspring, best_individual)
             # print('\nIndivíduos Após Atualização: ', *population, sep='\n')
             print('\nGeração Atual: ', generation)
             print('Melhor Indivíduo: ', best_individual)
             print('Fitness: ', fitness_function(best_individual))
-            if population_has_converged(population): 
-                break
+            #if population_has_converged(population): 
+            #    break
 
         result = f'Iteração: {i}\nMelhor Indivíduo: {best_individual}\nFitness: {fitness_function(best_individual)}\nFunção Objetivo: {rastrigin(best_individual)}\n\n'
         with open('result.txt', 'a') as file:
