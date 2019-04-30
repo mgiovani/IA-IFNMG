@@ -47,6 +47,42 @@ def crossover(population):
             offspring.append(child_2)
     return offspring
 
+def crossover2(population):
+    offspring: list = []
+    
+    while(len(offspring) < len(population)):
+        parent_1 = random.randint(0, len(population)-1)
+        parent_2 = random.randint(0, len(population)-1)
+        if random.random() < constants.CROSSOVER_RATE:
+            child = (population[parent_1] + population[parent_2]) / 2
+            offspring.append(child)
+    return offspring
+
+def crossover3(population):
+    offspring: list = []
+    
+    while(len(offspring) < len(population)):
+        parent_1 = random.randint(0, len(population)-1)
+        parent_2 = random.randint(0, len(population)-1)
+        if random.random() < constants.CROSSOVER_RATE:
+            child = population[parent_1]*0.5 + population[parent_2]*0.5
+            offspring.append(child)
+    return offspring
+
+def crossover4(population):
+    offspring: list = []
+    
+    while(len(offspring) < len(population)):
+        parent_1 = random.randint(0, len(population)-1)
+        parent_2 = random.randint(0, len(population)-1)
+        if random.random() < constants.CROSSOVER_RATE:
+            if fitness_function(population[parent_1]) > fitness_function(population[parent_2]):
+                child = population[parent_1]*constants.CROSSOVER_ALPHA + population[parent_2]*(1-constants.CROSSOVER_ALPHA)
+            else:
+                child = population[parent_1]*(1-constants.CROSSOVER_ALPHA) + population[parent_2]*constants.CROSSOVER_ALPHA
+            offspring.append(child)
+    return offspring
+
 def mutate(population):
     for individual in population:
         if random.random() <= constants.MUTATION_RATE:
@@ -101,6 +137,8 @@ def main():
             file.write('')
 			
     for i in range(1, 31):
+        mean = 0.0
+        best = [10.0]
         population = initial_population()
         print('População Inicial: ', *population, sep='\n')
         for generation in range(1, 101):
@@ -108,18 +146,24 @@ def main():
             # print('\nIndivíduos Selecionados: ', *population, sep='\n')
             population = mutate(population)
             # print('\nIndivíduos Após Mutação: ', *population, sep='\n')
-            offspring = crossover(population)
+            offspring = crossover4(population)
             population = update_for_next_generation(population, offspring, best_individual)
             # print('\nIndivíduos Após Atualização: ', *population, sep='\n')
             print('\nGeração Atual: ', generation)
             print('Melhor Indivíduo: ', best_individual)
-            print('Fitness: ', fitness_function(best_individual))
-            #if population_has_converged(population): 
+            print('Fitness: ', fitness_function(best_individual), 'Rastrigin: ', rastrigin(best_individual))
+            # if population_has_converged(population): 
             #    break
 
+        mean += rastrigin(best_individual)
+        if fitness_function(best_individual) > fitness_function(best):
+            best = copy.deepcopy(best_individual)
         result = f'Iteração: {i}\nMelhor Indivíduo: {best_individual}\nFitness: {fitness_function(best_individual)}\nFunção Objetivo: {rastrigin(best_individual)}\n\n'
+        
         with open('result.txt', 'a') as file:
             file.write(result)
-    
+    with open('result.txt', 'a') as file:
+        file.write(f'Média das Iterações: {mean}\nMelhor Indivíduo Encontrado: {best}\n\n')
+
 if __name__ == "__main__":
     main()

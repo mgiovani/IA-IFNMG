@@ -1,150 +1,153 @@
-IteraÁ„o: 1
-Melhor IndivÌduo: [ 0.00620108 -0.99366376]
-Fitness: 0.9969896834904334
-FunÁ„o Objetivo: 1.002919405876927
+Itera√ß√£o: 1
+Melhor Indiv√≠duo: [-1.98745218e+00  2.44332005e-04]
+Fitness: 0.25118427970352813
+Fun√ß√£o Objetivo: 3.981040862717588
 
-IteraÁ„o: 2
-Melhor IndivÌduo: [-0.9963533  -0.00430442]
-Fitness: 1.0008803988587738
-FunÁ„o Objetivo: 0.9990203755615781
+Itera√ß√£o: 2
+Melhor Indiv√≠duo: [-0.99372256  0.99463829]
+Fitness: 0.5024263658905415
+Fun√ß√£o Objetivo: 1.9902414069990506
 
-IteraÁ„o: 3
-Melhor IndivÌduo: [ 0.9947991  -0.99519708]
-Fitness: 0.5025038673091549
-FunÁ„o Objetivo: 1.9899344356648925
+Itera√ß√£o: 3
+Melhor Indiv√≠duo: [-0.99496418 -1.98862983]
+Fitness: 0.20099630599285964
+Fun√ß√£o Objetivo: 4.975115813346962
 
-IteraÁ„o: 4
-Melhor IndivÌduo: [ 0.99359979 -0.00424865]
-Fitness: 1.0009948604389982
-FunÁ„o Objetivo: 0.998906128324613
+Itera√ß√£o: 4
+Melhor Indiv√≠duo: [-0.00205851 -0.99509828]
+Fitness: 1.0041132547733163
+Fun√ß√£o Objetivo: 0.9958035947849879
 
-IteraÁ„o: 5
-Melhor IndivÌduo: [-0.99457302  0.99552639]
-Fitness: 0.502484403253297
-FunÁ„o Objetivo: 1.9900115209259752
+Itera√ß√£o: 5
+Melhor Indiv√≠duo: [-0.99503213 -0.99506644]
+Fitness: 0.502507136345448
+Fun√ß√£o Objetivo: 1.9899214895904507
 
-IteraÁ„o: 6
-Melhor IndivÌduo: [ 1.99018296e+00 -3.01289381e-04]
-Fitness: 0.251258572273745
-FunÁ„o Objetivo: 3.9798637120858302
+Itera√ß√£o: 6
+Melhor Indiv√≠duo: [-0.99671727 -0.01048362]
+Fitness: 0.9828308392165056
+Fun√ß√£o Objetivo: 1.0173690904054062
 
-IteraÁ„o: 7
-Melhor IndivÌduo: [-0.99603172 -0.0123502 ]
-Fitness: 0.9751031472728388
-FunÁ„o Objetivo: 1.0254325324267413
+Itera√ß√£o: 7
+Melhor Indiv√≠duo: [0.99495944 0.99508023]
+Fitness: 0.5025072483979425
+Fun√ß√£o Objetivo: 1.9899210458418821
 
-IteraÁ„o: 8
-Melhor IndivÌduo: [1.99017706 0.99553286]
-Fitness: 0.20100625662401686
-FunÁ„o Objetivo: 4.974869519831936
+Itera√ß√£o: 8
+Melhor Indiv√≠duo: [-0.99484983  0.99526129]
+Fitness: 0.5025028094019821
+Fun√ß√£o Objetivo: 1.9899386252368991
 
-IteraÁ„o: 9
-Melhor IndivÌduo: [-2.98709767e+00 -1.62048194e-03]
-Fitness: 0.11165430496439328
-FunÁ„o Objetivo: 8.956115349859564
+Itera√ß√£o: 9
+Melhor Indiv√≠duo: [-1.99318971 -0.99471805]
+Fitness: 0.20092306436940655
+Fun√ß√£o Objetivo: 4.976929407442507
 
-IteraÁ„o: 10
-Melhor IndivÌduo: [0.99470901 0.00701868]
-Fitness: 0.9951803301968297
-FunÁ„o Objetivo: 1.0047430115195475
+Itera√ß√£o: 10
+Melhor Indiv√≠duo: [ 0.99556968 -0.00293236]
+Fitness: 1.0031710545432158
+Fun√ß√£o Objetivo: 0.9967389692576809
 
-IteraÁ„o: 11
-Melhor IndivÌduo: [-0.99477252  0.99504007]
-Fitness: 0.5025059221854249
-FunÁ„o Objetivo: 1.9899262979010217
+Itera√ß√£o: 11
+Melhor Indiv√≠duo: [0.01186358 0.99539719]
+Fitness: 0.9775104740898751
+Fun√ß√£o Objetivo: 1.0229069411082925
 
-IteraÁ„o: 12
-Melhor IndivÌduo: [ 0.99396318 -0.99482715]
-Fitness: 0.5024575139197252
-FunÁ„o Objetivo: 1.9901180230103286
+Itera√ß√£o: 12
+Melhor Indiv√≠duo: [-0.0035983   0.99593848]
+Fitness: 1.0021866971183522
+Fun√ß√£o Objetivo: 0.9977180740927416
 
-IteraÁ„o: 13
-Melhor IndivÌduo: [-0.99455989 -0.99667713]
-Fitness: 0.5023521874460881
-FunÁ„o Objetivo: 1.9905353052505
+Itera√ß√£o: 13
+Melhor Indiv√≠duo: [-0.99509077  1.98954046]
+Fitness: 0.20100821402062818
+Fun√ß√£o Objetivo: 4.97482107410783
 
-IteraÁ„o: 14
-Melhor IndivÌduo: [ 0.99533246 -1.99218814]
-Fitness: 0.20096689935903045
-FunÁ„o Objetivo: 4.975843815570766
+Itera√ß√£o: 14
+Melhor Indiv√≠duo: [-0.99506024  1.9911622 ]
+Fitness: 0.20099687633550306
+Fun√ß√£o Objetivo: 4.975101695825385
 
-IteraÁ„o: 15
-Melhor IndivÌduo: [0.00867571 0.99498985]
-Fitness: 0.9901106360734283
-FunÁ„o Objetivo: 1.0098881402807578
+Itera√ß√£o: 15
+Melhor Indiv√≠duo: [ 0.99535956 -0.99538621]
+Fitness: 0.5024907860937639
+Fun√ß√£o Objetivo: 1.9899862417274292
 
-IteraÁ„o: 16
-Melhor IndivÌduo: [-0.00849012  0.99565023]
-Fitness: 0.9906374404890891
-FunÁ„o Objetivo: 1.0093510454867207
+Itera√ß√£o: 16
+Melhor Indiv√≠duo: [-0.99654902  0.00172941]
+Fitness: 1.0038608399857674
+Fun√ß√£o Objetivo: 0.9960540087709546
 
-IteraÁ„o: 17
-Melhor IndivÌduo: [1.98715056 0.0061477 ]
-Fitness: 0.2506933031945977
-FunÁ„o Objetivo: 3.988837826646936
+Itera√ß√£o: 17
+Melhor Indiv√≠duo: [ 1.99132345 -0.99514597]
+Fitness: 0.2009932447145231
+Fun√ß√£o Objetivo: 4.975191589626959
 
-IteraÁ„o: 18
-Melhor IndivÌduo: [ 1.98789121 -0.00615862]
-Fitness: 0.25073569103106313
-FunÁ„o Objetivo: 3.9881634813091367
+Itera√ß√£o: 18
+Melhor Indiv√≠duo: [0.99490878 1.99248626]
+Fitness: 0.20095643198762883
+Fun√ß√£o Objetivo: 4.9761030013628105
 
-IteraÁ„o: 19
-Melhor IndivÌduo: [-1.99012603  0.99462346]
-Fitness: 0.20100819377492676
-FunÁ„o Objetivo: 4.974821575185745
+Itera√ß√£o: 19
+Melhor Indiv√≠duo: [ 0.99498788 -0.9951177 ]
+Fitness: 0.5025066789888567
+Fun√ß√£o Objetivo: 1.9899233008090533
 
-IteraÁ„o: 20
-Melhor IndivÌduo: [0.00122149 0.9965136 ]
-Fitness: 1.004182860002515
-FunÁ„o Objetivo: 0.9957345634354837
+Itera√ß√£o: 20
+Melhor Indiv√≠duo: [ 0.99494687 -0.99472808]
+Fitness: 0.5025053202579113
+Fun√ß√£o Objetivo: 1.9899286816600252
 
-IteraÁ„o: 21
-Melhor IndivÌduo: [-0.99712288 -0.00845674]
-Fitness: 0.9899295008100707
-FunÁ„o Objetivo: 1.0100729458326967
+Itera√ß√£o: 21
+Melhor Indiv√≠duo: [0.00352617 0.99429134]
+Fitness: 1.002391670180283
+Fun√ß√£o Objetivo: 0.9975140362580497
 
-IteraÁ„o: 22
-Melhor IndivÌduo: [0.01192082 2.98920347]
-Fitness: 0.1112765771849133
-FunÁ„o Objetivo: 8.98651717764966
+Itera√ß√£o: 22
+Melhor Indiv√≠duo: [0.01239987 0.01089252]
+Fitness: 18.478057212484757
+Fun√ß√£o Objetivo: 0.054018243519905695
 
-IteraÁ„o: 23
-Melhor IndivÌduo: [-0.00782351  0.00670338]
-Fitness: 47.27214375324122
-FunÁ„o Objetivo: 0.021054107273407396
+Itera√ß√£o: 23
+Melhor Indiv√≠duo: [-0.99466152  0.9954311 ]
+Fitness: 0.5024923912995252
+Fun√ß√£o Objetivo: 1.989979884421416
 
-IteraÁ„o: 24
-Melhor IndivÌduo: [-0.99494338  1.99017816]
-Fitness: 0.20100889194805802
-FunÁ„o Objetivo: 4.974804295569205
+Itera√ß√£o: 24
+Melhor Indiv√≠duo: [-0.99482673  0.9946456 ]
+Fitness: 0.5025022109205545
+Fun√ß√£o Objetivo: 1.9899409953780278
 
-IteraÁ„o: 25
-Melhor IndivÌduo: [ 1.99021984 -0.9960962 ]
-Fitness: 0.20099833462324596
-FunÁ„o Objetivo: 4.975065599627548
+Itera√ß√£o: 25
+Melhor Indiv√≠duo: [-0.99326412 -0.99403348]
+Fitness: 0.5023214458716867
+Fun√ß√£o Objetivo: 1.9906571301573308
 
-IteraÁ„o: 26
-Melhor IndivÌduo: [ 0.99485326 -0.99609241]
-Fitness: 0.5024430722053106
-FunÁ„o Objetivo: 1.9901752278199893
+Itera√ß√£o: 26
+Melhor Indiv√≠duo: [0.00434598 0.99495919]
+Fitness: 1.0011954596465649
+Fun√ß√£o Objetivo: 0.9987059677707819
 
-IteraÁ„o: 27
-Melhor IndivÌduo: [-1.98977783  0.99498729]
-Fitness: 0.20100930846144033
-FunÁ„o Objetivo: 4.974793987020657
+Itera√ß√£o: 27
+Melhor Indiv√≠duo: [-0.00390729 -0.00417562]
+Fitness: 151.79998045345567
+Fun√ß√£o Objetivo: 0.0064876161315226
 
-IteraÁ„o: 28
-Melhor IndivÌduo: [-1.33237496e-04 -9.96171653e-01]
-Fitness: 1.0046673122268146
-FunÁ„o Objetivo: 0.9952543703771255
+Itera√ß√£o: 28
+Melhor Indiv√≠duo: [ 1.98854304 -0.99399758]
+Fitness: 0.20098706777659545
+Fun√ß√£o Objetivo: 4.975344495322142
 
-IteraÁ„o: 29
-Melhor IndivÌduo: [-0.00527509  0.99449291]
-Fitness: 0.9993782442887448
-FunÁ„o Objetivo: 1.0005221425319277
+Itera√ß√£o: 29
+Melhor Indiv√≠duo: [1.98998213 1.98950204]
+Fitness: 0.12563134996043326
+Fun√ß√£o Objetivo: 7.959696661541432
 
-IteraÁ„o: 30
-Melhor IndivÌduo: [ 0.9941759  -0.99423736]
-Fitness: 0.5024512706778317
-FunÁ„o Objetivo: 1.9901427525975812
+Itera√ß√£o: 30
+Melhor Indiv√≠duo: [-0.00400626  0.0043978 ]
+Fitness: 140.43308814134573
+Fun√ß√£o Objetivo: 0.007020828953027802
+
+M√©dia das Itera√ß√µes: 0.007020828953027802
+Melhor Indiv√≠duo Encontrado: [-0.00400626  0.0043978 ]
 
