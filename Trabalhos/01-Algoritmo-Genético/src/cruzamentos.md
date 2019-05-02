@@ -1,5 +1,10 @@
 # Resultados dos Cruzamentos
 
+- [Cruzamento 1](#Cruzamento-1)
+- [Cruzamento 2](#Cruzamento-2)
+- [Cruzamento 3](#Cruzamento-3)
+- [Cruzamento 4](#Cruzamento-4)
+
 ### Cruzamento 1
 Foi utilizado o método de cruzamento apresentado em sala com a ideia de pegar 90% de um pai e 10% do outro pai para a geração de um filho e depois o inverso para gerar um segundo filho.
 
@@ -8,8 +13,7 @@ Foi utilizado o método de cruzamento apresentado em sala com a ideia de pegar 9
 **Melhor Indivíduo Encontrado:** [ 0.99440737 -0.00436639]
 
 #### Resultado de 30 iterações:
-<details>
- <summary>Clique para expandir</summary>
+```
 Iteração: 1
 Melhor Indivíduo: [ 0.99431472 -2.98166542]
 Fitness: 0.1004848262966192
@@ -159,7 +163,7 @@ Iteração: 30
 Melhor Indivíduo: [ 0.99440737 -0.00436639]
 Fitness: 1.0010997096579866
 Função Objetivo: 0.9988014983748599
-</details>
+```
 
 ### Cruzamento 2
 Para o segundo cruzamento foi utilizado de uma média entre os dois pais para gerar um único filho.
@@ -169,8 +173,7 @@ Para o segundo cruzamento foi utilizado de uma média entre os dois pais para ge
 **Melhor Indivíduo Encontrado:** [ 9.93844401e-01 -7.86245867e-04]
 
 #### Resultado de 30 iterações:
-<details>
- <summary>Clique para expandir</summary>
+```
 Iteração: 1
 Melhor Indivíduo: [0.99237559 0.00672664]
 Fitness: 0.9946712607471194
@@ -320,7 +323,7 @@ Iteração: 30
 Melhor Indivíduo: [ 9.93844401e-01 -7.86245867e-04]
 Fitness: 1.0045931345163603
 Função Objetivo: 0.9953278659105393
-</details>
+```
 
 ### Cruzamento 3
 Para o terceiro cruzamento foi utilizado de uma junção de 50% do pai 1 com 50% do pai 2 para gerar o filho.
@@ -330,8 +333,7 @@ Para o terceiro cruzamento foi utilizado de uma junção de 50% do pai 1 com 50%
 **Melhor Indivíduo Encontrado:** [0.0091131  0.00956825]
 
 #### Resultado de 30 iterações:
-<details>
- <summary>Clique para expandir</summary>
+```
 Iteração: 1
 Melhor Indivíduo: [0.9959472  0.99497991]
 Fitness: 0.5024590347816038
@@ -481,7 +483,7 @@ Iteração: 30
 Melhor Indivíduo: [0.0091131  0.00956825]
 Fitness: 28.79410965902053
 Função Objetivo: 0.034629325262770294
-</details>
+```
 
 ### Cruzamento 4
 Para o terceiro cruzamento foi utilizado de uma combinação da primeira técnica de cruzamento com uma análise do fitness para saber qual dos pais é melhor de ser herdado com mais ênfase. Este é um método forçado e pode acabar em uma conversão de mínimo local mais facilmente.
@@ -491,8 +493,7 @@ Para o terceiro cruzamento foi utilizado de uma combinação da primeira técnic
 **Melhor Indivíduo Encontrado:** [-0.00400626  0.0043978 ]
 
 #### Resultado de 30 iterações:
-<details>
- <summary>Clique para expandir</summary>
+```
 Iteração: 1
 Melhor Indivíduo: [-1.98745218e+00  2.44332005e-04]
 Fitness: 0.25118427970352813
@@ -642,4 +643,4 @@ Iteração: 30
 Melhor Indivíduo: [-0.00400626  0.0043978 ]
 Fitness: 140.43308814134573
 Função Objetivo: 0.007020828953027802
-</details>
+```
