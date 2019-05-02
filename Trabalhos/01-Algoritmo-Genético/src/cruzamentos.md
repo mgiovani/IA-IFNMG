@@ -9,8 +9,8 @@
 Foi utilizado o método de cruzamento apresentado em sala com a ideia de pegar 90% de um pai e 10% do outro pai para a geração de um filho e depois o inverso para gerar um segundo filho.
 
 #### Resumo:
-**Média das Iterações:** 0.9988014983748599
-**Melhor Indivíduo Encontrado:** [ 0.99440737 -0.00436639]
+**Média das Iterações:** 0.9988014983748599  
+**Melhor Indivíduo Encontrado:** [ 0.99440737 -0.00436639]  
 
 #### Resultado de 30 iterações:
 ```
@@ -169,8 +169,8 @@ Função Objetivo: 0.9988014983748599
 Para o segundo cruzamento foi utilizado de uma média entre os dois pais para gerar um único filho.
 
 #### Resumo:
-**Média das Iterações:** 0.9953278659105393
-**Melhor Indivíduo Encontrado:** [ 9.93844401e-01 -7.86245867e-04]
+**Média das Iterações:** 0.9953278659105393  
+**Melhor Indivíduo Encontrado:** [ 9.93844401e-01 -7.86245867e-04]  
 
 #### Resultado de 30 iterações:
 ```
@@ -329,8 +329,8 @@ Função Objetivo: 0.9953278659105393
 Para o terceiro cruzamento foi utilizado de uma junção de 50% do pai 1 com 50% do pai 2 para gerar o filho.
 
 #### Resumo:
-**Média das Iterações:** 0.034629325262770294
-**Melhor Indivíduo Encontrado:** [0.0091131  0.00956825]
+**Média das Iterações:** 0.034629325262770294  
+**Melhor Indivíduo Encontrado:** [0.0091131  0.00956825]  
 
 #### Resultado de 30 iterações:
 ```
@@ -489,8 +489,8 @@ Função Objetivo: 0.034629325262770294
 Para o terceiro cruzamento foi utilizado de uma combinação da primeira técnica de cruzamento com uma análise do fitness para saber qual dos pais é melhor de ser herdado com mais ênfase. Este é um método forçado e pode acabar em uma conversão de mínimo local mais facilmente.
 
 #### Resumo:
-**Média das Iterações:** 0.007020828953027802
-**Melhor Indivíduo Encontrado:** [-0.00400626  0.0043978 ]
+**Média das Iterações:** 0.007020828953027802  
+**Melhor Indivíduo Encontrado:** [-0.00400626  0.0043978 ]  
 
 #### Resultado de 30 iterações:
 ```
